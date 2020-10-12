@@ -1,0 +1,24 @@
+{
+  "name": "fistbot",
+  "version": "1.0.0",
+  "description": "Bot that handle autorespond in Fistbump's Server",
+  "main": "fist",
+  "scripts": {
+    "test": "bot_test"
+  },
+  "repository": "github:VolaTile324/fistbump-bot",
+  
+  "keywords": [
+    "bot"
+  ],
+  "author": "Rhizka S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolaTile324/fistbump-bot/issues"
+  },
+  "homepage": "https://github.com/VolaTile324/fistbump-bot",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "eslint": "^7.11.0"
+  }
+}
