@@ -1,6 +1,5 @@
 // require the module
 const Discord = require('discord.js');
-const config = require('./config.json');
 
 // create a new Discord client
 const client = new Discord.Client();
@@ -12,7 +11,7 @@ client.once('ready', () => {
 });
 
 // login to Discord with your app's token
-client.login(config.token);
+client.login('token-here');  // DO NOT ENTER THE REAL TOKEN, ITS VITAL TO AVOID GETTING HACKED
 
 // listen for messages, yes yes the autorespond thingy
 const ilona = '351295902415192069';
