@@ -18,6 +18,7 @@ const ilona = '351295902415192069';
 const fisty = '675596728056938518';
 const wagon = '393379461900533760';
 const dedle = '652127450935066632';
+const febbs = '320146775535255554';
 
 client.on('message', message => {
 	if (message.content.includes('medic')) {
@@ -42,5 +43,8 @@ client.on('message', message => {
 
 	else if (message.mentions.users.has(dedle)) {
 		message.react('765127132560359444');
+	}
+	else if (message.mentions.users.has(febbs)) {
+		message.react('765215277284982817');
 	}
 });
