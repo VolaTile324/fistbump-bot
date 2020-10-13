@@ -44,6 +44,7 @@ client.on('message', message => {
 	else if (message.mentions.users.has(dedle)) {
 		message.react('765127132560359444');
 	}
+	
 	else if (message.mentions.users.has(febbs)) {
 		message.react('765215277284982817');
 	}
